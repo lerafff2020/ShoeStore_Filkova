@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="065fc8831e274e1e90031d0b810d9295" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="ShoeStore_FilkovaModel.Categories" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_FilkovaModel.Manufacturers" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_FilkovaModel.Order_Items" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_FilkovaModel.Order_Status" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_FilkovaModel.Orders" Width="1.5" PointX="3" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_FilkovaModel.pickup_points" Width="1.5" PointX="0.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_FilkovaModel.Product_Names" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_FilkovaModel.Products" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_FilkovaModel.Suppliers" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_FilkovaModel.User_Roles" Width="1.5" PointX="1.5" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShoeStore_FilkovaModel.Users" Width="1.5" PointX="0.75" PointY="18.375" IsExpanded="true" />
+        <AssociationConnector Association="ShoeStore_FilkovaModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_FilkovaModel.FK_Products_Manufacturers" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_FilkovaModel.FK_Order_Items_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_FilkovaModel.FK_Order_Items_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_FilkovaModel.FK_Orders_Order_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_FilkovaModel.FK_Orders_pickup_points" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_FilkovaModel.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_FilkovaModel.FK_Products_Product_Names" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_FilkovaModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="ShoeStore_FilkovaModel.FK_Users_User_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
